@@ -1,0 +1,63 @@
+.title {
+    font-family: 'Bangers', cursive;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.football-image-1 {
+    background-color: #af0f0f;
+}
+
+.football-image-2 {
+    background-color: #af0f0f;
+}
+
+.football-image-3 {
+    background-color: #af0f0f;
+}
+
+.football-image-4 {
+    background-color: #af0f0f;
+}
+
+.basketball-image-1 {
+    background-color: #103e69;
+}
+.basketball-image-2 {
+    background-color: #103e69;
+}
+.basketball-image-3 {
+    background-color: #103e69;
+}
+.basketball-image-4 {
+    background-color: #103e69;
+}
+.portrait-image-1 {
+    background-color: #588881;
+}
+.portrait-image-2 {
+    background-color: #588881;
+}
+.portrait-image-3 {
+    background-color: #588881;
+}
+.portrait-image-4 {
+    background-color: #588881;
+    box-shadow: black;
+}
+.basketball {
+    align-self: right;
+    background-color: rgb(184, 184, 184);
+}
+.football {
+    background-color: rgb(184, 190, 245);
+}
+.portraits {
+    background-color: red;
+}
+
+.portfolio {
+    padding: 10px;
+    border: 10px;
+}

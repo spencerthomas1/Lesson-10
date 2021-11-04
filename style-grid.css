@@ -1,0 +1,108 @@
+ @supports (grid-area: auto) {
+     .portfolio { 
+         display: grid;
+
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
+         grid-gap: 1em;
+     }
+     .title {
+         grid-column: 1/4; 
+         grid-row: 1;
+     }
+     .page-title {
+         grid-column: 1/4;
+         grid-row: 1/2;
+    
+     }
+    .football-image-1 {
+        grid-column:1 ;
+        grid-row: 2;
+        background-image: url(images/Rville.jpg);
+        background-size: cover;
+    }
+    .football-image-2 {
+        grid-column: 2;
+        grid-row: 2;
+        background-image: url(images/breonjump.jpg);
+        background-size: cover;
+    }
+    .football-image-3 {
+        grid-column: 1;
+        grid-row: 3;
+        background-image: url(images/tygrim.JPG);
+        background-size: cover;
+    }
+    .football-image-4 {
+        grid-column: 2;
+        grid-row: 3;
+        background-image: url(images/jwat.jpg);
+        background-size: cover;
+    }
+    /*football*/
+    .basketball-image-1 {
+        grid-column:3 ;
+        grid-row: 2;
+        background-image: url(images/lj3.jpg);
+        background-size: cover;
+    }
+    .basketball-image-2 {
+        grid-column: 4;
+        grid-row: 2;
+        background-image: url(images/footonball.jpg);
+        background-size: cover;
+    }
+    .basketball-image-3 {
+        grid-column: 3;
+        grid-row: 3;
+        background-image: url(images/nikdunk.jpg);
+        background-size: cover;
+    }
+    .basketball-image-4 {
+        grid-column: 4;
+        grid-row: 3;
+        background-image: url(images/shakdunk.jpg);
+        background-size: cover;
+    }
+        /*basketball*/
+        .portrait-image-1 {
+            grid-column:5 ;
+            grid-row: 2;
+            background-image: url(images/joshflicks.jpg);
+        background-size: cover;
+        }
+        .portrait-image-2 {
+            grid-column: 6;
+            grid-row: 2;
+            background-image: url(images/coach.jpg);
+        background-size: cover;
+        }
+        .portrait-image-3 {
+            grid-column: 5;
+            grid-row: 3;
+            background-image: url(images/9.jpg);
+        background-size: cover;
+        }
+        .portrait-image-4 {
+            grid-column: 6;
+            grid-row: 3;
+            background-image: url(images/jay.jpg);
+        background-size: cover;
+        }
+            /*portraits*/
+    
+  
+    .basketball {
+        grid-column: 3/5;
+        grid-row: 4;
+    }
+    .football {
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+    .portraits {
+        grid-column: 5/7;
+        grid-row: 4;
+    }
+
+ }

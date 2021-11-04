@@ -1,0 +1,38 @@
+nav ul.menu {
+    margin: 0 auto;
+    font-size: 0.9em;
+    width: 100%
+}nav ul.menu a {
+    text-decoration: none;
+    color: white;
+}
+nav ul.menu li {
+    list-style: none;
+    color: white;
+
+    float: left;
+    padding: 10px;
+    line-height: 1em;
+    background-color: #000;
+    border: 1px solid #fff;
+    width: 15%;
+}
+nav ul.menu ul {
+    margin-left: -9999999px;
+    position: absolute;
+}
+nav ul.menu li li {
+    width: 122px
+}
+nav ul.menu li:hover {
+    position: relative;
+}
+
+nav ul.menu li:hover > ul {
+    margin: 10px -1px 0px -50px;
+}
+nav ul.menu ul ul {
+    top: 0px;
+    left: 200%;
+    width: 100%;
+}
